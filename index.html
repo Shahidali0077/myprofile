@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shahid Ali - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/mylogo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/shahid ali.png" alt="Shahid Ali" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Shahid Ali">Shahid Ali</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:shahidali40532@gmail.com" class="contact-link">shahidali40532@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+916392530904" class="contact-link">+91 6392530904</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-02-03">3rd Feb, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title"> Current Location</p>
+
+              <address>Noida, Uttar Pradesh India.</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/shahid.razaa.3975?mibextid=ZbWKwL" target="_blank" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/shahid-ali-550211238" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://instagram.com/shahid_ali0077?igshid=ZGUzMzM3NWJiOQ==" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a creative and passionate developer working in web development.
+            I enjoy
+            turning complex problems into simple, beautiful and user-friendly.
+          </p>
+
+          <p>
+            My job is to build Websites so that it is functional and user-friendly but at the same time attractive.
+            Moreover, I
+            add personal touch to product and make sure that is eye-catching and easy to use in the most creative way.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Frontend Development</h4>
+
+                <p class="service-item-text">
+                  I can make Beautiful and fully Responsive UI with Html, Css, Bootstraps etc. 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend Development</h4>
+
+                <p class="service-item-text">
+                  High-quality development in the Backend and can make fully Dynamic Websites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/crmproject.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">CRM Projects</h4>
+
+                <p class="service-item-text">
+                  I can make Customer Relationship Management at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/landing pages.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Attractive Landing Pages</h4>
+
+                <p class="service-item-text">
+                  I can make Attractive Landing Pages for Webinar or any other professional work.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+           
+
+          </section>
+
+        </div>
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#" style="background:white">
+                <img src="https://uniqoemedia.com/mediend/img/logomedi.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" style="background:white;padding-bottom: 30px;">
+                <img src="https://kundkundtc.com/wp-content/uploads/2021/07/kundkundtc-logo-final.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" style="background:white">
+                <img src="https://autismend.com/images/Autism-logo.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" style="background:white;">
+                <img src="https://gastroend.com/images/gastroEND-logo.png" alt="client logo">
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelors of Technology in Computer Science & Engineering</h4>
+
+              <span>2018 — 2022</span>
+
+              <p class="timeline-text">
+               I have done my graduation in Bachelors of Technology in Computer Science & Engineering with 79 % in 2022 from Apj Abdul Kalaam Technical University Lucknow Uttar Pradesh.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intermediate in PCM Stream</h4>
+
+              <span>2017— 2018</span>
+
+              <p class="timeline-text">
+                I have done my Intermediate in PCM Stream in 2018 with 81 % from Board of High School and Intermediate Education Uttar Pradesh.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school in Math & Science</h4>
+
+              <span>2015 — 2016</span>
+
+              <p class="timeline-text">
+                I have done my High school in Math & Science in 2016 with 72 % from Board of High School and Intermediate Education Uttar Pradesh.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Developer</h4>
+
+              <span>September 2022 — Present</span>
+
+              <p class="timeline-text">
+               Currently, I am working on kundkund Trading and Consultancy Pvt Ltd as a Web developer I have done lots of projects like Websites,CRM etc for the Company.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Python Training</h4>
+
+              <span>2019 — 2020</span>
+
+              <p class="timeline-text">
+                I have done Python training from Indian Institute of Technology, Kanpur during my graduation and this training has increased my confidence level towards programming.
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Html</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Css</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="45">45%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 45%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Php</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">My Sql</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C</h5>
+                <data value="30">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Laravel</h5>
+                <data value="25%">25%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 25%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">ChatGpt</h5>
+                <data value="95%">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!-- Projects -->
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+           
+
+            <li class="filter-item">
+              <button data-filter-btn>CRM Projects</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>CRM Projects</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box eyesett">
+                    <a href="javascript:void(0)" class="icon-box" onclick="openLightbox('./assets/images/mediendstoreproject-1.png')">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </a>
+                  </div>
+        
+                  <div class="project-item-icon-box linksett">
+                    <a href="https://mediendstore.com/" class="icon-box" target="_blank">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </a>
+                  </div>
+                  <img src="./assets/images/mediendstoreproject-1.png" alt="mediend Store" loading="lazy">
+                </figure>
+                <h3 class="project-title">Mediend Store(e-commerce)</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                   <div class="project-item-icon-box eyesett">
+                    <a href="javascript:void(0)" class="icon-box" onclick="openLightbox('./assets/images/autismendproject-2.png')">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </a>
+                  </div>
+
+                  <div class="project-item-icon-box linksett">
+                    <a href="https://autismend.com/" class="icon-box" target="_blank">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </a>
+                  </div>
+
+                  <img src="./assets/images/autismendproject-2.png" alt="autismend" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AutismEnd</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="crm projects">
+              <a href="#">
+
+                <figure class="project-img">
+                   <div class="project-item-icon-box eyesett">
+                    <a href="javascript:void(0)" class="icon-box" onclick="openLightbox('./assets/images/dpmsproject-4.png')">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </a>
+                  </div>
+
+                  <div class="project-item-icon-box linksett">
+                    <a href="https://mediend.com/dpms/" class="icon-box" target="_blank">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </a>
+                  </div>
+
+                  <img src="./assets/images/dpmsproject-4.png" alt="dpms" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Doctors & Patients Management System</h3>
+
+                <p class="project-category">CRM Projects</p>
+
+              </a>
+            </li>
+
+           
+
+            <li class="project-item  active" data-filter-item data-category="crm projects">
+              <a href="#">
+
+                <figure class="project-img">
+                   <div class="project-item-icon-box eyesett">
+                    <a href="javascript:void(0)" class="icon-box" onclick="openLightbox('./assets/images/mediend-formsproject-5.png')">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </a>
+                  </div>
+
+                  <div class="project-item-icon-box linksett">
+                    <a href="https://mediend.com/mediend-forms/" class="icon-box" target="_blank">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </a>
+                  </div>
+
+                  <img src="./assets/images/mediend-formsproject-5.png" alt="mediend-forms" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mediend Forms</h3>
+
+                <p class="project-category">CRM Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="crm projects">
+              <a href="#">
+
+                <figure class="project-img">
+                   <div class="project-item-icon-box eyesett">
+                    <a href="javascript:void(0)" class="icon-box" onclick="openLightbox('./assets/images/crmproject-6.png')">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </a>
+                  </div>
+
+                  <div class="project-item-icon-box linksett">
+                    <a href="https://mediend.com/crm/crm/" class="icon-box" target="_blank">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </a>
+                  </div>
+
+                  <img src="./assets/images/crmproject-6.png" alt="EMS" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Employee Task Management System</h3>
+
+                <p class="project-category">CRM Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                   <div class="project-item-icon-box eyesett">
+                    <a href="javascript:void(0)" class="icon-box" onclick="openLightbox('./assets/images/gastroendproject-3.png')">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </a>
+                  </div>
+
+                  <div class="project-item-icon-box linksett">
+                    <a href="https://gastroend.com/" class="icon-box" target="_blank">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </a>
+                  </div>
+
+                  <img src="./assets/images/gastroendproject-3.png" alt="gastroend" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">GastroEnd</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+    
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                   <div class="project-item-icon-box eyesett">
+                    <a href="javascript:void(0)" class="icon-box" onclick="openLightbox('./assets/images/webinarlandingpage-1.png')">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </a>
+                  </div>
+
+                  <div class="project-item-icon-box linksett">
+                    <a href="https://mediend.com/webinar/" class="icon-box" target="_blank">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </a>
+                  </div>
+
+                  <img src="./assets/images/webinarlandingpage-1.png" alt="webinarlandingpage-1" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Webinar Landing Page 1</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                   <div class="project-item-icon-box eyesett">
+                    <a href="javascript:void(0)" class="icon-box" onclick="openLightbox('./assets/images/webinarlandingpage-2.png')">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </a>
+                  </div>
+
+                  <div class="project-item-icon-box linksett">
+                    <a href="https://mediend.com/digestive-disorder/" class="icon-box" target="_blank">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </a>
+                  </div>
+
+                  <img src="./assets/images/webinarlandingpage-2.png" alt="webinarlandingpage-2" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Webinar Landing Page 2</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+          
+          <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img id="lightbox-image" class="lightbox-image" src="" alt="">
+          </div>
+        </section>
+
+      </article>
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    function openLightbox(imageSrc) {
+      var lightbox = document.getElementById('lightbox');
+      var lightboxImage = document.getElementById('lightbox-image');
+
+      // Set the source of the lightbox image
+      lightboxImage.src = imageSrc;
+
+      // Show the lightbox
+      lightbox.style.display = 'block';
+    }
+
+    // Close the lightbox when the close button is clicked
+    document.getElementsByClassName('close')[0].onclick = function() {
+      document.getElementById('lightbox').style.display = 'none';
+    }
+  </script>
+</body>
+
+</html>
